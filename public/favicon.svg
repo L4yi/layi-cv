@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f4f4f5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Squircle Background -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <rect width="496" height="496" x="8" y="8" rx="120" fill="none" stroke="rgba(255, 255, 255, 0.16)" stroke-width="8" />
+
+  <!-- Monogram: Bold Modern "LA" -->
+  <text 
+    x="256" 
+    y="348" 
+    text-anchor="middle" 
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Plus Jakarta Sans', sans-serif" 
+    font-size="270" 
+    font-weight="900" 
+    letter-spacing="-10" 
+    fill="url(#fg)"
+  >LA</text>
+
+  <!-- Tech Cyan Accent Dot -->
+  <circle cx="410" cy="130" r="22" fill="#38bdf8" />
+</svg>
